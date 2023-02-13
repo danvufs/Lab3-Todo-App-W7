@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    grid-template-columns: 1fr 300px;
+    grid-gap: 20px;
+}
+
+.task-list-container {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.add-task-container {
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.clear-tasks-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.clear-tasks-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 6px 6px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.clear-tasks-button:hover {
+    background-color: red;
+}
+
+
+.change-status-button {
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 6px 6px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #3E8E41;
+    }
+}
+
+.remove-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 6px 6px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: red;
+    }
+}

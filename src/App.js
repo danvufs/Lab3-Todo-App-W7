@@ -3,6 +3,7 @@ import uuid from 'react-uuid';
 import Header from './components/Header/Header';
 import Tasks from './components/Tasks/Tasks';
 import Form from './components/Form/Form';
+import './App.scss';
 
 // App component that renders the Header and Tasks components
 function App() {
